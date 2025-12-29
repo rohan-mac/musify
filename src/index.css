@@ -1,0 +1,165 @@
+
+/* ROOT */
+.app {
+  display: flex;
+  height: 100vh;
+  background-color: #0f172a;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+/* SIDEBAR */
+.sidebar-container {
+  width: 240px;
+  background-color: #020617;
+  border-right: 1px solid #1e293b;
+}
+
+/* MAIN CONTENT */
+.main-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+
+
+
+
+/* OPTIONAL HEADER POLISH */
+.header {
+  background-color: #020617;
+  border-bottom: 1px solid #1e293b;
+}
+
+
+
+
+
+
+
+.home {
+  padding: 20px;
+  background-color: #0f172a;
+  color: #ffffff;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, #1db954, #0f172a);
+  border-radius: 20px;
+  padding: 60px;
+  margin-bottom: 40px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  opacity: 0.9;
+  margin-bottom: 25px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 12px 25px;
+  border-radius: 30px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn.primary {
+  background-color: #000;
+  color: #1db954;
+}
+
+.btn.secondary {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+/* SECTIONS */
+.section {
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+/* ALBUMS */
+.album-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 25px;
+}
+
+.album-card {
+  background-color: #1e293b;
+  padding: 15px;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.album-card:hover {
+  transform: translateY(-5px);
+}
+
+.album-cover {
+  height: 150px;
+  background-color: #334155;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+/* SONG LIST */
+.song-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.song-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #1e293b;
+    padding: 12px 18px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.song-icon {
+  font-size: 1.3rem;
+}
+
+.song-info h4 {
+  margin: 0;
+}
+
+.song-info p {
+  margin: 0;
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+
+.tumbnaill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+}
+
+
+
+
+
